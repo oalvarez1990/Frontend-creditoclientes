@@ -1,0 +1,118 @@
+/* reset basico */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+}
+/* body */
+body {
+  font-family: ui-sans-serif, system-ui, "Segoe UI", "Helvetica Neue", Arial,
+    "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 14px;
+  /* imagen de fondo */
+  background-image: url(/img/fondoBg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.titulo{
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 148px;
+  margin-bottom: 20px;
+  
+}
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+}
+.login-container {
+  /* margin-top: 35px; */
+  background: hsla(0, 0%, 100%, 0.3);
+  width: 270px;
+  height: 380px;
+  padding: 2rem;
+  flex-direction: column;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  /* border: solid 1px rgb(183, 19, 19); */
+  margin: auto;
+  display:grid;  
+}
+.login-container input {
+  width: 268px;
+  height: 44px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  gap: 15px;
+  margin-top: 15px; 
+  padding: 0 10px;
+  background: hsla(0, 0%, 100%, 0.3);
+  color: rgb(183, 19, 19);
+ 
+}
+.username-label .password{
+  border: solid 1px rgb(183, 19, 19);
+}
+label{
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 10px; 
+  margin-top: 15px;
+  /* gap */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 5px;
+}
+.remember{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;   
+  margin-bottom: 10px;
+  color: none;
+
+   
+
+}
+
+.remember .password-input{
+height: 16px;
+width: 16px;
+/* crear un circulo */
+border-radius: 5%;
+/* color de fondo */
+background: #5145cd;
+/* color de borde */
+border: 1px solid #5145cd;
+/* color de texto */
+color: #fff;
+}
+.remember .password-label{
+
+
+}
+
+.forgot{  
+  font-size: 1rem;
+  text-decoration: none;
+  text-align: center;  
+}
+button{
+  background:#5145cd;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  width: 50%;
+  height: 44px;
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  margin:50px 54px;
+  padding: 8px 20px;
+  border-radius: 1rem;
+}
+

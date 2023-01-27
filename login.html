@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/login.css">
+    <title>Creditos Sacas</title>
+</head>
+
+<body>
+    <!-- titulo -->
+    <div class="titulo">
+        <h1>SOLINT</h1>
+    </div>
+    <section class="login">
+        <div class="login-container">
+            <form id="login-form">
+                <label for="username" class="username-label">Usuario</label>
+                <input type="text" id="username" class="username-input" name="username"
+                    placeholder="Ingrese el usuario">
+
+                <label for="password">Contraseña</label>
+                <input type="password" id="password" name="password" class="password"
+                    placeholder="Ingrese la contraseña">
+
+                <div class="remember">
+                    <input type="checkbox" name="remember" id="remember" class="password-input">
+                    <label for="remember" class="password-label">Recordar usuario</label>
+                </div>
+                <div class="forgot">
+                    <a href="#">Olvide mi contraseña</a>
+                </div>
+                <button type="submit" name="submit">Iniciar sesión</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- importar js -->
+    <script src="./script/script.js"></script>
+</body>
+
+</html>
